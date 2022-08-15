@@ -1,5 +1,8 @@
 # Dictionary is Key-Value pairs
 
+import string
+
+
 dict ={}
 print(type(dict))
 
@@ -34,3 +37,6 @@ print(list) # gives tuple of keys
 # get items
 items = dict.items()
 print(items) # gives tuple of items
+
+for key in dict:    # iterating dictionary gives keys as tuple
+    print(key+" -> "+ str(dict[key]))  # Convert all data types to string to print

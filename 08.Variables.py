@@ -2,7 +2,7 @@ print("Hello World")
 '''Type Casting Examples
 int()
 float()
-string()
+str()
 '''
 var1 = '30'
 var2 = '50'
