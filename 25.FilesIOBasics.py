@@ -27,5 +27,5 @@ fp = open("D:\Code\LearnPython\SampleText.txt",'r+')
 
 for line in fp: # Iterate file pointer to read by line
     # print(line) # This prints extra new line character
-    print(line, end=" ")
+    print(line, end="")
 fp.close()

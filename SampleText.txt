@@ -1,4 +1,3 @@
-
 This is an write statement
 This is another write statement
 This is the third statement
